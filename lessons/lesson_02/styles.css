@@ -1,0 +1,35 @@
+/* 
+    font-size - размер текста 
+    color - цвет текста
+    font-weight - толщина шрифта
+    text-decoration - задает вид декоративных линий в тексте (подчеркивание текста)
+    background-color - изменяет цвет фона
+    height - высота (px или %)
+*/
+
+/* 1. Селекторы по тегу (элементу) */
+html,
+body {
+  height: 100%;
+}
+
+h3 {
+  color: chocolate;
+  font-size: 30px;
+}
+
+/* 2. Селектор по классу (может использоваться для группы элементов) (точка перед названием)*/
+.main-user {
+  background-color: khaki;
+}
+
+/* 3. Селектор по id (может использоваться только для одного элемента на странице) (решетка перед названием)*/
+#company-name {
+  color: rgb(165, 42, 157);
+  text-decoration: underline;
+}
+
+#root {
+    height: 100%;
+    background-color: bisque;
+}
