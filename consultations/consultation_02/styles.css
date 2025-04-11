@@ -1,0 +1,21 @@
+/* <!-- ширина 200px --> */
+/* <!-- минимальная высота 200px --> */
+/* <!-- максимальная высота по контенту --> */
+/* <!-- внутренний отступ 40px --> */
+/* <!-- граница 2px сплошная черная --> */
+
+* {
+  box-sizing: border-box;
+}
+
+.actor {
+  border: 2px solid black;
+  width: 300px;
+  min-height: 200px;
+  max-height: fit-content;
+  padding: 40px;
+}
+
+.avatar {
+  width: 100%;
+}
