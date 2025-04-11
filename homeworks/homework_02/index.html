@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <title>Homework 2: HTML&CSS</title>
+    <style>
+      #info {
+        color: rgb(86, 115, 39);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <header>
+        <div>
+          <img
+            class="avatar"
+            src="./assets/woman.png"
+            alt="Тут должна быть моя фотография"
+          />
+        </div>
+        <a href="#description" style="text-decoration: none; color: coral"
+          >Перейти к информации обо мне</a
+        >
+        <h1 id="name">Арина Малко</h1>
+      </header>
+      <main>
+        <section>
+          <div id="info">
+            <h3>Пол: женский</h3>
+            <h3>Место учёбы: AIT TR GmbH</h3>
+          </div>
+        </section>
+        <section>
+          <table border="1">
+            <tbody>
+              <tr>
+                <td>
+                  <h4 class="title">Места, которые хочу посетить:</h4>
+                  <ol>
+                    <li>
+                      <a
+                        href="https://www.visitlondon.com/"
+                        target="_blank"
+                        title="Туристическая информация о Лондоне"
+                        class="city"
+                      >
+                        Лондон
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.rome.net/"
+                        target="_blank"
+                        title="Туристическая информация о Риме"
+                        class="city"
+                      >
+                        Рим
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://de.wikivoyage.org/wiki/Peking"
+                        target="_blank"
+                        title="Туристическая информация о Пекине"
+                        class="city"
+                      >
+                        Пекин
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://de.wikivoyage.org/wiki/Tokio"
+                        target="_blank"
+                        title="Туристическая информация о Токио"
+                        class="city"
+                      >
+                        Токио
+                      </a>
+                    </li>
+                  </ol>
+                </td>
+                <td>
+                  <h4 class="title">Любимые блюда:</h4>
+                  <ul>
+                    <li class="food">Суши</li>
+                    <li class="food">Мясо по-французки</li>
+                    <li class="food">Мороженное</li>
+                    <li class="food">Шоколад</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section>
+          <p id="description">
+            В данный момент проживаю в Германии в городе Дортмунд. Люблю
+            <span id="hobby"
+              >программировать, кататься на велосипеде, готовить, играть в
+              компьютерные, настрольные и видоеигры</span
+            >.
+          </p>
+        </section>
+        <section>
+          <table border="2">
+            <caption class="title">
+              Список любимых фильмов
+            </caption>
+            <thead>
+              <tr>
+                <th>Название</th>
+                <th>Год выпуска</th>
+                <th>Режиссер</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mamma Mia</td>
+                <td>2008</td>
+                <td>Филлида Ллойд</td>
+              </tr>
+              <tr>
+                <td>Величайший шоумен</td>
+                <td>2017</td>
+                <td>Майкл Грейси</td>
+              </tr>
+              <tr>
+                <td>Куб</td>
+                <td>1997</td>
+                <td>Винченцо Натали</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+      <footer>
+        <p>2025 Личная страница Арины Малко</p>
+      </footer>
+    </div>
+  </body>
+</html>

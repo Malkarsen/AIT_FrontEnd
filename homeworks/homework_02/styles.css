@@ -1,0 +1,58 @@
+/* 
+    font-size - размер текста 
+    color - цвет текста
+    font-weight - толщина шрифта
+    text-decoration - задает вид декоративных линий в тексте (подчеркивание текста)
+    background-color - изменяет цвет фона
+    height - высота (px или %)
+*/
+
+/* 1. Селекторы по тегу (элементу) */
+body {
+  height: 100%;
+  background-color: navajowhite;
+}
+
+table {
+  background-color: darkseagreen;
+  color: darkblue;
+  font-size: larger;
+}
+
+footer {
+  color: darkslategray;
+}
+
+/* 2. Селектор по классу (может использоваться для группы элементов) (точка перед названием)*/
+.avatar {
+  width: 275px;
+}
+
+.title {
+  font-weight: 900;
+}
+
+.city {
+  text-decoration: none;
+  color: rgb(109, 26, 154);
+  font-size: large;
+}
+
+.food {
+  color: rgba(177, 7, 7, 0.994);
+  font-size: large;
+}
+
+/* 3. Селектор по id (может использоваться только для одного элемента на странице) (решетка перед названием)*/
+#hobby {
+  background-color: orange;
+}
+
+#name {
+  background-color: rgb(134, 53, 246);
+  color: honeydew;
+}
+
+#description {
+  color: indigo;
+}
