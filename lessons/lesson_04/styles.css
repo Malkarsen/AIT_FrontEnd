@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: antiquewhite;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.box-container {
+    /* 1 шаг flex-разработки - даем display: flex для родительского контейнера, 
+    дочерними элементами которого мы хотим управлять*/
+    display: flex;
+    flex: 1; /*займи все незанятое пространство от своего flex-родителя */
+
+    flex-direction: row; /* направление элементов по горизонтали, вертикали и отраженно */
+    /* flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+
+    flex-wrap: wrap; /* перенос элементов в случае уменьшения экрана */
+    /* flex-wrap: wrap-reverse; */
+
+    gap: 30px; /* отступ между элементами (между ними)*/
+
+    /* justify-content: flex-start; управляет положением контента по оси main */
+    justify-content: center; 
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; равномерно размазать элементы по строке */
+    /* justify-content: space-around; равномерно размазать элементы по строке с добавлением отступов у крайних элементов */
+    /* justify-content: space-evenly; расстояния все равны */
+
+    align-items: flex-start; /* выравнивание элементов по оси cross */
+    align-items: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#box1 {
+    background-color: aquamarine;
+}
+
+#box2 {
+    background-color: blue;
+}
+
+#box3 {
+    background-color: blueviolet;
+}
+
+#box4 {
+    background-color: red;
+}
+
+#box5 {
+    background-color: black;
+    color: white;
+}
