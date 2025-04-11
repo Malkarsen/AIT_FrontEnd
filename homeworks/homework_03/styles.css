@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.auto {
+  min-width: 400px;
+  max-width: fit-content;
+  min-height: 500px;
+  max-height: fit-content;
+  padding: 20px;
+  margin: 30px;
+}
+
+.autoImage {
+  width: 360px;
+  /* height: 250px; */
+  margin-bottom: 30px;
+}
+
+#auto1 {
+  border: 2px dotted red;
+}
+
+#auto2 {
+  border: 2px dashed green;
+}
+
+#auto3 {
+  border: 2px double blue;
+}
