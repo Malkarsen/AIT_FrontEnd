@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>Homework 4: Flexbox</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+  </head>
+  <body>
+    <div id="root">
+      <header class="box-container" id="header-container">
+        <div id="company_title">CarsApp</div>
+        <nav id="nav-container">
+          <a class="menu" href="#">О нас</a>
+          <a class="menu" href="#">Команда</a>
+          <a class="menu" href="#">Проекты</a>
+          <a class="menu" href="#">FAQ</a>
+        </nav>
+      </header>
+      <main class="box-container">
+        <!-- Карточка 1 -->
+        <div class="auto" id="mini_cooper">
+          <img
+            class="autoImage"
+            src="./assets/mini-cooper-2015-s.png"
+            alt="Mini Cooper 2015-s photo"
+          />
+          <h3 class="title mini_title">Brand: MINI</h3>
+          <p>Model: Mini Cooper s</p>
+          <p>Year of release: 2015</p>
+        </div>
+        <!-- Карточка 2 -->
+        <div class="auto" id="mercedes_benz">
+          <img
+            class="autoImage"
+            src="./assets/mercedes-benz-2024.png"
+            alt="Mercedes-Benz GLE350 2024 photo"
+          />
+          <h3 class="title mercedes_title">Brand: MERCEDES-BENZ</h3>
+          <p>Model: GLE350 4MATIC</p>
+          <p>Year of release: 2024</p>
+        </div>
+        <!-- Карточка 3 -->
+        <div class="auto" id="mazda">
+          <img
+            class="autoImage"
+            src="./assets/mazda-cx-5.png"
+            alt="Mazda CX-5 G194 photo"
+          />
+          <h3 class="title mazda_title">Brand: Mazda</h3>
+          <p>Model: CX-5 G194</p>
+          <p>Year of release: 2022</p>
+        </div>
+        <!-- Карточка 4 -->
+        <div class="auto" id="tesla">
+          <img
+            class="autoImage"
+            src="./assets/tesla-model-3.png"
+            alt="Tesla Model 3 photo"
+          />
+          <h3 class="title tesla_title">Brand: Tesla</h3>
+          <p>Model: 3</p>
+          <p>Year of release: 2024</p>
+        </div>
+        <!-- Карточка 5 -->
+        <div class="auto" id="bmw">
+          <img class="autoImage" src="./assets/BMW_X5.png" alt="BMW X5 photo" />
+          <h3 class="title bmw_title">Brand: BMW</h3>
+          <p>Model: X5</p>
+          <p>Year of release: 1999</p>
+        </div>
+        <!-- Карточка 6 -->
+        <div class="auto" id="volkswagen">
+          <img
+            class="autoImage"
+            src="./assets/volkswagen_golf.png"
+            alt="Volkswagen Golf photo"
+          />
+          <h3 class="title volkswagen_title">Brand: Volkswagen</h3>
+          <p>Model: Golf</p>
+          <p>Year of release: 2021</p>
+        </div>
+      </main>
+      <footer class="box-container" id="footer-container">
+        <div>
+          <h2 class="title">CarsApp</h2>
+        </div>
+        <div>
+          <h2 class="title" id="address_titel">Адрес CarsApp в Германии:</h2>
+          <h3 class="info" id="address1">Францёзише Штрассе 48</h3>
+          <h3 class="info" id="address2">10117 Берлин, Германия</h3>
+        </div>
+        <div>
+          <h2 class="title" id="contact_titel">Контактные данные:</h2>
+          <h3 class="info" id="contact1">Email: berlin@carsapp.com</h3>
+          <h3 class="info" id="contact2">Телефон: +49 30 98765432</h3>
+          <h3 class="info" id="contact3">Сайт: www.carsapp.de</h3>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
