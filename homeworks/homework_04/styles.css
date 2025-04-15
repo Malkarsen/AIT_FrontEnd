@@ -9,29 +9,53 @@ body {
 }
 
 #root {
+  display: flex;
+  flex-direction: column;
   min-height: 100%;
   background-color: azure;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  margin: 0;
+  padding: 0;
+}
+
 .box-container {
-    display: flex;
-    flex: 1;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 #header-container {
-    justify-content: space-around;
-    align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  height: 50px;
+  background-color: white;
 }
 
 #nav-container {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+#main-container {
+  justify-content: center;
 }
 
 #footer-container {
-    justify-content: space-evenly;
+  justify-content: space-evenly;
+  padding: 30px;
+  height: 150px;
+  background-color: white;
 }
 
 #company_title {
@@ -95,6 +119,7 @@ body {
 .title {
   font-size: 24px;
   font-weight: bold;
+  padding-bottom: 10px;
 }
 
 .mini_title {
