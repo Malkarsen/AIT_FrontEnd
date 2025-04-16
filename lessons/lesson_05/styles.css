@@ -49,7 +49,7 @@ li {
 }
 
 .user_form_input {
-  outline: none;
+  outline: none; /* обводка при нажатии*/
   width: 100%;
   height: 40px;
   padding: 10px;
