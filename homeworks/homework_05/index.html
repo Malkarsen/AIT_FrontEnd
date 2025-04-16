@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 5: Forms</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+  </head>
+  <body>
+    <div id="root">
+      <form class="user_form">
+        <!-- 1. Заголовок формы -->
+        <p class="user_form_title">Contact us</p>
+        <!-- 2. Поле Name -->
+        <div class="user_input_container">
+          <label class="user_form_label" for="user_name">Name</label>
+          <input
+            id="user_name"
+            class="user_form_input"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <!-- 3. Поле Email -->
+        <div class="user_input_container">
+          <label class="user_form_label" for="user_email">Email</label>
+          <input
+            id="user_email"
+            class="user_form_input"
+            name="email"
+            placeholder="Enter your email"
+            type="email"
+            required
+          />
+        </div>
+        <!-- 4. Селект Location -->
+        <div class="user_input_container">
+          <label class="user_form_label" for="user_location">Location</label>
+          <select
+            id="user_location"
+            class="user_form_input"
+            name="location"
+            required
+          >
+            <option value="New York">New York</option>
+            <option value="Los Angeles">Los Angeles</option>
+            <option value="Chicago">Chicago</option>
+            <option value="Boston">Boston</option>
+          </select>
+        </div>
+        <!-- 5. Поле Message -->
+        <div class="user_input_container">
+          <label class="user_form_label" for="user_message">Message</label>
+          <textarea
+            id="user_message"
+            class="user_form_input"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+        </div>
+        <!-- 6. Чекбокс -->
+        <div class="user_checkbox_container">
+          <input
+            id="user_checkbox"
+            class="user_checkbox_input"
+            name="agree"
+            type="checkbox"
+          />
+          <label class="user_form_label" for="user_checkbox">I agree</label>
+        </div>
+        <!-- 7. Кнопка отправки данных -->
+        <button class="user_form_button" id="button_send_request" type="submit">
+          SEND REQUEST
+        </button>
+        <!-- 8. Кнопка очистки данных -->
+        <button class="user_form_button" id="button_clear_form" type="reset">CLEAR FORMT</button>
+      </form>
+    </div>
+  </body>
+</html>
