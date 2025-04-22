@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: azure;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#header-container {
+  position: fixed;
+  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  height: 120px;
+  width: 100%;
+  background-color: white;
+}
+
+#nav-container {
+  display: flex;
+  gap: 30px;
+}
+
+#main-container {
+  position: relative;
+  top: 120px;
+  justify-content: center;
+}
+
+#footer-container {
+  position: relative;
+  top: 120px;
+  justify-content: space-evenly;
+  padding: 30px;
+  height: 160px;
+  background-color: white;
+}
+
+#company_title {
+  color: navy;
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.menu,
+.title {
+  color: royalblue;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.info {
+  color: cadetblue;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.auto_card {
+  position: relative;
+  width: 400px;
+  min-height: 500px;
+  max-height: fit-content;
+  padding: 20px;
+  margin: 30px;
+  background-color: white;
+}
+
+.auto_status {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.auto_status_in_stock {
+  color: rgb(20, 160, 20);
+}
+
+.auto_status_under_the_order {
+  color: rgb(197, 22, 22);
+}
+
+.auto_image {
+  width: 360px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#mini_cooper,
+#toyota {
+  border: 2px dotted tomato;
+}
+
+#mercedes_benz,
+#porsche {
+  border: 2px dashed yellowgreen;
+}
+
+#mazda,
+#mercedes {
+  border: 2px double royalblue;
+}
+
+#tesla {
+  border: 2px dotted palevioletred;
+}
+
+#bmw {
+  border: 2px dashed orange;
+}
+
+#volkswagen {
+  border: 2px double seagreen;
+}
+
+.auto_title,
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.mini_title,
+.toyota_title {
+  color: tomato;
+}
+
+.mercedes_title,
+.porsche_title {
+  color: yellowgreen;
+}
+
+.mazda_title,
+.mercedes_title {
+  color: royalblue;
+}
+
+.tesla_title {
+  color: palevioletred;
+}
+
+.bmw_title {
+  color: orange;
+}
+
+.volkswagen_title {
+  color: seagreen;
+}
+
+.auto_info {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-size: 20px;
+}

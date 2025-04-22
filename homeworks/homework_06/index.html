@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>Homework 6: Position</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+  </head>
+  <body>
+    <div id="root">
+      <header class="box-container" id="header-container">
+        <h1 id="company_title">CarsApp</h1>
+        <nav id="nav-container">
+          <a class="menu" href="#">О нас</a>
+          <a class="menu" href="#">Команда</a>
+          <a class="menu" href="#">Проекты</a>
+          <a class="menu" href="#">FAQ</a>
+        </nav>
+      </header>
+      <main class="box-container" id="main-container">
+        <!-- Карточка 1 -->
+        <div class="auto_card" id="mini_cooper">
+          <div class="auto_status auto_status_in_stock">
+            <p>В наличии</p>
+          </div>
+          <img
+            class="auto_image"
+            src="./assets/mini-cooper-2015-s.png"
+            alt="Mini Cooper 2015-s photo"
+          />
+          <h3 class="auto_title mini_title">Brand: MINI</h3>
+          <div class="auto_info">
+            <p>Model: Mini Cooper s</p>
+            <p>Year of release: 2015</p>
+          </div>
+        </div>
+        <!-- Карточка 2 -->
+        <div class="auto_card" id="mercedes_benz">
+          <div class="auto_status auto_status_under_the_order">
+            <p>Под заказ</p>
+          </div>
+          <img
+            class="auto_image"
+            src="./assets/mercedes-benz-2024.png"
+            alt="Mercedes-Benz GLE350 2024 photo"
+          />
+          <h3 class="auto_title mercedes_title">Brand: MERCEDES-BENZ</h3>
+          <div class="auto_info">
+            <p>Model: GLE350 4MATIC</p>
+            <p>Year of release: 2024</p>
+          </div>
+        </div>
+        <!-- Карточка 3 -->
+        <div class="auto_card" id="mazda">
+          <div class="auto_status auto_status_in_stock">
+            <p>В наличии</p>
+          </div>
+          <img
+            class="auto_image"
+            src="./assets/mazda-cx-5.png"
+            alt="Mazda CX-5 G194 photo"
+          />
+          <h3 class="auto_title mazda_title">Brand: Mazda</h3>
+          <div class="auto_info">
+            <p>Model: CX-5 G194</p>
+            <p>Year of release: 2022</p>
+          </div>
+        </div>
+        <!-- Карточка 4 -->
+        <div class="auto_card" id="tesla">
+          <div class="auto_status auto_status_under_the_order">
+            <p>Под заказ</p>
+          </div>
+          <img
+            class="auto_image"
+            src="./assets/tesla-model-3.png"
+            alt="Tesla Model 3 photo"
+          />
+          <h3 class="auto_title tesla_title">Brand: Tesla</h3>
+          <div class="auto_info">
+            <p>Model: 3</p>
+            <p>Year of release: 2024</p>
+          </div>
+        </div>
+        <!-- Карточка 5 -->
+        <div class="auto_card" id="bmw">
+          <div class="auto_status auto_status_in_stock">
+            <p>В наличии</p>
+          </div>
+          <img class="auto_image" src="./assets/BMW_X5.png" alt="BMW X5 photo" />
+          <h3 class="auto_title bmw_title">Brand: BMW</h3>
+          <div class="auto_info">
+            <p>Model: X5</p>
+            <p>Year of release: 1999</p>
+          </div>
+        </div>
+        <!-- Карточка 6 -->
+        <div class="auto_card" id="volkswagen">
+          <div class="auto_status auto_status_under_the_order">
+            <p>Под заказ</p>
+          </div>
+          <img
+            class="auto_image"
+            src="./assets/volkswagen_golf.png"
+            alt="Volkswagen Golf photo"
+          />
+          <h3 class="auto_title volkswagen_title">Brand: Volkswagen</h3>
+          <div class="auto_info">
+            <p>Model: Golf</p>
+            <p>Year of release: 2021</p>
+          </div>
+        </div>
+        <!-- Карточка 7 -->
+        <div class="auto_card" id="toyota">
+          <div class="auto_status auto_status_in_stock">
+            <p>В наличии</p>
+          </div>
+          <img
+            class="auto_image"
+            src="./assets/toyota-rav4-hybrid-2020.png"
+            alt="Toyota RAV4 Hybrid photo"
+          />
+          <h3 class="auto_title toyota_title">Brand: Toyota</h3>
+          <div class="auto_info">
+            <p>Model: RAV4 Hybrid</p>
+            <p>Year of release: 2020</p>
+          </div>
+        </div>
+        <!-- Карточка 8 -->
+        <div class="auto_card" id="porsche">
+          <div class="auto_status auto_status_under_the_order">
+            <p>Под заказ</p>
+          </div>
+          <img
+            class="auto_image"
+            src="./assets/porsche_911_turbo_s-2021.png"
+            alt="Porsche 911 turbo S photo"
+          />
+          <h3 class="auto_title porsche_title">Brand: Porsche</h3>
+          <div class="auto_info">
+            <p>Model: 911 turbo S</p>
+            <p>Year of release: 2021</p>
+          </div>
+        </div>
+        <!-- Карточка 9 -->
+        <div class="auto_card" id="mercedes">
+          <div class="auto_status auto_status_in_stock">
+            <p>В наличии</p>
+          </div>
+          <img
+            class="auto_image"
+            src="./assets/mercedes-sprinter.png"
+            alt="Mercedes Sprinter photo"
+          />
+          <h3 class="auto_title mercedes_title">Brand: Mercedes</h3>
+          <div class="auto_info">
+            <p>Model: Sprinter</p>
+            <p>Year of release: 2020</p>
+          </div>
+        </div>
+      </main>
+      <footer class="box-container" id="footer-container">
+        <div>
+          <h2 class="title">CarsApp</h2>
+        </div>
+        <div>
+          <h2 class="title" id="address_titel">Адрес CarsApp в Германии:</h2>
+          <h3 class="info" id="address1">Францёзише Штрассе 48</h3>
+          <h3 class="info" id="address2">10117 Берлин, Германия</h3>
+        </div>
+        <div>
+          <h2 class="title" id="contact_titel">Контактные данные:</h2>
+          <h3 class="info" id="contact1">Email: berlin@carsapp.com</h3>
+          <h3 class="info" id="contact2">Телефон: +49 30 98765432</h3>
+          <h3 class="info" id="contact3">Сайт: www.carsapp.de</h3>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
