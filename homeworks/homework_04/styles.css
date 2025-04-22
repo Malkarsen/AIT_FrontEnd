@@ -29,7 +29,6 @@ li {
 
 .box-container {
   display: flex;
-  flex: 1;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -38,7 +37,8 @@ li {
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-  height: 50px;
+  height: 120px;
+  width: 100%;
   background-color: white;
 }
 
@@ -54,7 +54,7 @@ li {
 #footer-container {
   justify-content: space-evenly;
   padding: 30px;
-  height: 150px;
+  height: 160px;
   background-color: white;
 }
 
