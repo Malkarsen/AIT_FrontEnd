@@ -14,18 +14,19 @@
         <p class="user_form_title">Contact us</p>
         <!-- 2. Поле Name -->
         <div class="user_input_container">
-          <label class="user_form_label" for="user_name">Name</label>
+          <label class="user_form_label" for="user_name">Name*</label>
           <input
             id="user_name"
             class="user_form_input"
             name="name"
             placeholder="Enter your name"
             required
+            autofocus
           />
         </div>
         <!-- 3. Поле Email -->
         <div class="user_input_container">
-          <label class="user_form_label" for="user_email">Email</label>
+          <label class="user_form_label" for="user_email">Email*</label>
           <input
             id="user_email"
             class="user_form_input"
@@ -44,7 +45,7 @@
             name="location"
             required
           >
-            <option value="New York">New York</option>
+            <option selected value="New York">New York</option>
             <option value="Los Angeles">Los Angeles</option>
             <option value="Chicago">Chicago</option>
             <option value="Boston">Boston</option>
@@ -52,7 +53,7 @@
         </div>
         <!-- 5. Поле Message -->
         <div class="user_input_container">
-          <label class="user_form_label" for="user_message">Message</label>
+          <label class="user_form_label" for="user_message">Message*</label>
           <textarea
             id="user_message"
             class="user_form_input"
@@ -75,7 +76,9 @@
           SEND REQUEST
         </button>
         <!-- 8. Кнопка очистки данных -->
-        <button class="user_form_button" id="button_clear_form" type="reset">CLEAR FORMT</button>
+        <button class="user_form_button" id="button_clear_form" type="reset">
+          CLEAR FORMT
+        </button>
       </form>
     </div>
   </body>
