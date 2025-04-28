@@ -95,6 +95,10 @@ li {
   background-color: white;
 }
 
+.auto_card_border {
+  top: -30px;
+}
+
 .auto_status {
   position: absolute;
   top: -7px;
