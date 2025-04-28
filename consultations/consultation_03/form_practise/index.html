@@ -9,31 +9,42 @@
   </head>
   <body>
     <div id="root">
-      <div class="image_box">
-        <img class="main_photo" src="./assets/logo.svg" alt="Main photo" />
-        <p class="info">
-          Auf Facebook bleibst du mit Menschen in Verbindung und teilst Fotos,
-          Videos und vieles mehr mit ihnen.
-        </p>
+      <div class="backdrop">
+        <div class="image_box">
+          <img class="main_photo" src="./assets/logo.svg" alt="Main photo" />
+          <p class="info">
+            On Facebook you can stay connected with people and share photos,
+            videos and much more with them.
+          </p>
+        </div>
+        <div class="form_box">
+          <form class="user_form">
+            <input
+              class="user_form_input"
+              name="phone_number"
+              type="number"
+              placeholder="Email address or phone number"
+            />
+            <input
+              id="user_form_password"
+              class="user_form_input"
+              name="password"
+              type="password"
+              placeholder="password"
+            />
+            <button class="user_form_button register_button" type="submit">Register</button>
+            <a class="forgot_password_link" href="#">Forgot your password?</a>
+            <div class="user_form_separator"></div>
+            <button class="user_form_button create_account_button" type="submit">
+              Create a new account
+            </button>
+          </form>
+          <p class="under_user_form_text">
+            <a class="create_page_link" href="#">Create a page</a>
+            <span> for a celebrity, brand, or company.</span>
+          </p>
+        </div>
       </div>
-      <form class="user_form">
-        <input
-          class="user_form_input"
-          name="phone_number"
-          type="number"
-          placeholder="Email or phone number"
-        />
-        <input
-          id="user_form_password"
-          class="user_form_input"
-          name="password"
-          type="password"
-          placeholder="password"
-        />
-        <button type="submit">Register</button>
-        <a href="#">Forgot your password?</a>
-        <button type="submit">Create a new account</button>
-      </form>
     </div>
   </body>
 </html>
