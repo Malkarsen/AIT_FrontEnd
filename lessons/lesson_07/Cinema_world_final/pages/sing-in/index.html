@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мир кино</title>
+    <link
+      rel="stylesheet"
+      href="../../commonStyles/globalStyles.css"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../commonStyles/elements.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+  </head>
+  <body>
+    <div id="root">
+      <header class="header_container">
+        <a href="../../index.html" class="company-name">Мир кино</a>
+        <nav class="nav_container">
+          <a class="menu" href="../films/index.html">Фильмы</a>
+          <a class="menu" href="#">Программы</a>
+          <a class="menu" href="#">Сейчас по TV</a>
+          <a class="menu" href="#">Рецензия</a>
+        </nav>
+        <div class="nav_container">
+          <a class="search_box" href="../search/index.html">
+            <img
+              class="search_icon"
+              src="../../assets/search_icon.png"
+              alt="Search icon"
+            />
+            <span>Поиск</span>
+          </a>
+          <a class="sing-in_box" href="./index.html">
+            <img
+              class="sing-in_icon"
+              src="../../assets/user_icon.png"
+              alt="Sing in icon"
+            />
+            <span class="active__link">Войти</span>
+          </a>
+        </div>
+      </header>
+      <main class="main_container">
+        <div class="arrow_up_box">
+          <a href="#root">
+            <img
+              class="arrow_up"
+              src="../../assets/up_arrow_icon.png"
+              alt="Arrow up"
+            />
+          </a>
+        </div>
+        <div id="background">
+          <form class="user-form">
+            <p class="user-form-title">Войти в систему</p>
+            <div class="user-input-container">
+              <label for="user_email">Email*</label>
+              <input
+                id="user_email"
+                class="user-form-input"
+                placeholder="Введите свой email"
+                type="email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="user-input-container">
+              <label for="user_password">Password*</label>
+              <input
+                id="user_password"
+                class="user-form-input"
+                placeholder="Введите свой password"
+                type="password"
+                name="password"
+                required
+              />
+            </div>
+            <button type="submit" class="send-request">Войти</button>
+            <a class="forgot_password_button" href="#">Забыли свой пароль?</a>
+            <div class="checkbox-containers">
+              <input
+                id="user_checkbox_input"
+                type="checkbox"
+                name="rememberMe"
+              />
+              <label for="user_checkbox_input">Remember me</label>
+            </div>
+          </form>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer_box">
+          <a class="footer_link" href="#">Защита данных</a>
+          <a class="footer_link" href="#">Контакты</a>
+          <a class="footer_link" href="#">О нас</a>
+          <a class="footer_link" href="#">Информирование о нарушении</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

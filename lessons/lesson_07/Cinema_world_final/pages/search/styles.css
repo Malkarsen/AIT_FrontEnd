@@ -1,0 +1,31 @@
+.main_container {
+  display: flex;
+  flex: 1;
+  padding: 160px 40px 40px 40px;
+  font-size: 40px;
+  background-color: rgba(240, 216, 94, 0.5);
+}
+
+.search_form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.search_form_title {
+  font-weight: bold;
+}
+
+.search_form_input {
+  outline: none;
+  width: 50%;
+  height: 50px;
+  padding: 10px;
+  font-size: 20px;
+  border-top: none;
+  border-right: none;
+  border-bottom: 3px solid black;
+  border-left: none;
+  background-color: rgb(240, 216, 94, 0);
+}

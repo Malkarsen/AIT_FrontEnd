@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мир кино</title>
+    <link
+      rel="stylesheet"
+      href="./commonStyles/globalStyles.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./commonStyles/elements.css" type="text/css" />
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+  </head>
+  <body>
+    <div id="root">
+      <header class="header_container">
+        <a href="./index.html" class="company-name">Мир кино</a>
+        <nav class="nav_container">
+          <a class="menu" href="./pages/films/index.html">Фильмы</a>
+          <a class="menu" href="#">Программы</a>
+          <a class="menu" href="#">Сейчас по TV</a>
+          <a class="menu" href="#">Рецензия</a>
+        </nav>
+        <div class="nav_container">
+          <a class="search_box" href="./pages/search/index.html">
+            <img
+              class="search_icon"
+              src="./assets/search_icon.png"
+              alt="Search icon"
+            />
+            <span>Поиск</span>
+          </a>
+          <a class="sing-in_box" href="./pages/sing-in/index.html">
+            <img
+              class="sing-in_icon"
+              src="./assets/user_icon.png"
+              alt="Sing in icon"
+            />
+            <span>Войти</span>
+          </a>
+        </div>
+      </header>
+      <main class="main_container">
+        <div class="arrow_up_box">
+          <a href="#root">
+            <img
+              class="arrow_up"
+              src="./assets/up_arrow_icon.png"
+              alt="Arrow up"
+            />
+          </a>
+        </div>
+        <div id="new" class="box">
+          <div class="text_in_box">Новинки</div>
+          <a class="image-container" href="#">
+            <!-- <img
+              class="image"
+              src="https://lh3.googleusercontent.com/proxy/LWUt-rbz93IdHRU27gOXLlsvlqiaRbUVNTMIkKuvNWaSlyQ85TiCH56ph0bocv79MBmOvraw2j0RcYakgZbhIR_LJmB5xwVTF2Tb7WDRW-dlXR6T9w"
+              alt="Minecraft film"
+            /> -->
+            <div class="image-box" id="image_new_1"></div>
+            <!-- <img
+              class="image"
+              src="https://m.media-amazon.com/images/M/MV5BM2MwYTlkY2MtNmUzNy00MTljLThjNDAtZGUzNzMxMzcxNzM5XkEyXkFqcGc@._V1_.jpg"
+              alt="Karate Kid Legends film"
+            /> -->
+            <div class="image-box" id="image_new_2"></div>
+          </a>
+        </div>
+        <div id="popular" class="box">
+          <div class="text_in_box">Популярные</div>
+          <a class="image-container" href="#">
+            <!-- <img
+              class="image"
+              src="https://m.media-amazon.com/images/I/A1JVqNMI7UL.jpg"
+              alt="interstellar film"
+            /> -->
+            <div class="image-box" id="image_popular_1"></div>
+            <!-- <img
+              class="image"
+              src="https://m.media-amazon.com/images/I/91y2gB9dgeL._AC_UF894,1000_QL80_.jpg"
+              alt="Harry Potter film"
+            /> -->
+            <div class="image-box" id="image_popular_2"></div>
+          </a>
+        </div>
+        <div id="cartoons" class="box">
+          <div class="text_in_box">Мультфильмы</div>
+          <a class="image-container" href="#">
+            <!-- <img
+              class="image"
+              src="https://m.media-amazon.com/images/M/MV5BNTU2OWE0YWYtMjRlMS00NTUwLWJmZWUtODFhNzJiMGJlMzI3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+              alt="Simpsons film"
+            /> -->
+            <div class="image-box" id="image_cartoons_1"></div>
+            <!-- <img
+              class="image"
+              src="https://m.media-amazon.com/images/I/91sjlsHiPSL.jpg"
+              alt="Adventure time film"
+            /> -->
+            <div class="image-box" id="image_cartoons_2"></div>
+          </a>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer_box">
+          <a class="footer_link" href="#">Защита данных</a>
+          <a class="footer_link" href="#">Контакты</a>
+          <a class="footer_link" href="#">О нас</a>
+          <a class="footer_link" href="#">Информирование о нарушении</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

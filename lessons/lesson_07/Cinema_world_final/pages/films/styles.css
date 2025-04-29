@@ -1,0 +1,59 @@
+.main_container {
+  background-image: url(../../assets/background.png);
+}
+
+.filmImage {
+  width: 400px;
+  height: auto;
+}
+
+.back_link {
+  color: white;
+  font-size: 20px;
+}
+
+.filmStyle {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px;
+  /* background-color: rgb(133, 127, 127); */
+  /* filter: brightness(70%) saturate(80%);   */
+  color: white;
+  font-size: 20px;
+  align-items: center;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.infoContainer div {
+  width: 45%;
+}
+
+.details ul {
+  padding-left: 20px;
+}
+
+.film {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* background-image: url(../../assets/background.png); */
+  gap: 50px;
+  justify-content: center;
+  padding: 50px;
+}
+
+.filmImage {
+  width: 250px;
+  height: 355px;
+}
