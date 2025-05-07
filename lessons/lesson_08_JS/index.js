@@ -40,8 +40,8 @@ let isAdmin = true;
 console.log(isAdmin);
 
 // 5. Неопределенный тип - undefined (не заданное, которое можно будет переписать)
-let animal = undefined;
-console.log(animal);
+let animal2 = undefined;
+console.log(animal2);
 
 // 6. Пустое значение - null (воспринимается как пусто значение)
 let value = null;
@@ -62,3 +62,23 @@ let person = {
 value = 100;
 console.log(value);
 
+// Теория
+// переопределение переменных(назначение переменно значений других типов данных)
+let animal = "Tiger";
+console.log(animal, typeof animal);
+animal = "Lion"; // string
+console.log(animal, typeof animal);
+animal = undefined; // undefined
+console.log(animal, typeof animal);
+animal = 5000; // number
+console.log(animal, typeof animal);
+
+// синтаксис `${}` литеральные скобки
+let userName = "John Johnson";
+console.log(userName);
+
+let hello = "My name is " + userName; // конкатинация
+console.log(hello);
+
+let hello2 = `My name is ${userName} and I'm glad to meet you`;
+console.log(hello2);
