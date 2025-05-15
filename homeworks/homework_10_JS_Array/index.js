@@ -1,5 +1,5 @@
 // Задание 1
-for (let index = 1; index <= 21; index++) {
+for (let index = 1; index <= 2; index++) {
   if (index % 2 === 0) {
     console.log(index);
   }
@@ -17,13 +17,15 @@ const names = ["Семен", "Иван", "Петр", "Татьяна"];
 const ages = [18, 27, 74, 34];
 const persons = [];
 for (let index = 0; index < names.length; index++) {
-  persons[index] = names[index] + " " + ages[index] + " лет/годов";
+  // persons[index] = names[index] + " " + ages[index] + " лет/годов";
+  persons.push(`${names[index]} ${ages[index]} лет/годов"`);
 }
 console.log(persons);
 
 // Задание 4
 let newPerson = [];
 for (let index = 0; index < persons.length; index++) {
-  newPerson[index] = persons[persons.length - index - 1];
+  // newPerson[index] = persons[persons.length - index - 1];
+  newPerson.unshift(persons[index]);
 }
 console.log(newPerson);
