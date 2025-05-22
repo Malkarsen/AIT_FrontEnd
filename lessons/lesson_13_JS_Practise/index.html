@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 13: DOM, Practise</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div id="root">
+      <header class="header">
+        <h1 id="label_style_header">App Logo</h1>
+      </header>
+      <main>
+        <form class="user_form">
+          <div class="user_input_container">
+            <label class="user_form_label" for="user_name"> Name* </label>
+            <input
+              id="user_name"
+              class="user_form_input"
+              placeholder="John"
+              name="name"
+            />
+          </div>
+          <div class="user_input_container">
+            <label class="user_form_label" for="user_surname"> Surname* </label>
+            <input
+              id="user_surname"
+              class="user_form_input"
+              placeholder="Johnson"
+              name="surname"
+            />
+          </div>
+          <div class="user_input_container">
+            <label class="user_form_label" for="user_age">Age*</label>
+            <input
+              id="user_age"
+              class="user_form_input"
+              placeholder="25"
+              type="number"
+              name="age"
+            />
+          </div>
+          <div class="user_input_container">
+            <label class="user_form_label" for="user_job">Job Position</label>
+            <input
+              id="user_job"
+              class="user_form_input"
+              placeholder="QA"
+              name="job"
+            />
+          </div>
+          <button type="submit" class="create_user">Create</button>
+        </form>
+        <div class="infocard">
+          <div class="infocard_container">
+            <p class="infocard_label">Name</p>
+            <p id="infocard_name" class="infocard_value"></p>
+          </div>
+          <div class="infocard_container">
+            <p class="infocard_label">Surname</p>
+            <p id="infocard_surname" class="infocard_value"></p>
+          </div>
+          <div class="infocard_container">
+            <p class="infocard_label">Age</p>
+            <p id="infocard_age" class="infocard_value"></p>
+          </div>
+          <div class="infocard_container">
+            <p class="infocard_label">Job Position</p>
+            <p id="infocard_job" class="infocard_value"></p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
