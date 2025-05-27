@@ -71,3 +71,14 @@ const filteredArrayByAge = employees.filter((value) => {
   return value.age < 30;
 });
 console.log(filteredArrayByAge);
+
+////////////////////////////////////////////////////////////////////////////////////////
+// 5. reduce()
+
+const numbers3 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const resultOfNumbers3Sum = numbers3.reduce((accumulator, nextValue, index, array) => {
+  console.log("Accumulator ", accumulator);
+  console.log("Next Value ",nextValue);
+  return accumulator + nextValue;
+}, 0); // можно задать начальное значение для accumulator
+console.log(resultOfNumbers3Sum);
