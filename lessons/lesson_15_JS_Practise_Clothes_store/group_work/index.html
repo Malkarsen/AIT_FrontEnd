@@ -71,40 +71,48 @@
         <video src="assets/video.mp4" autoplay muted loop></video>
       </div>
       <!-- Фильтры -->
-      <section id="filtersSection" class="filters">
+      <form id="filtersSection" class="filters">
         <label>
           Gender:
-          <select id="genderFilter">
-            <option value="">All</option>
+          <select id="genderFilter" name="gender">
+            <option value="All">All</option>
             <option value="Men">Men</option>
             <option value="Women">Women</option>
           </select>
         </label>
         <label>
           Price:
-          <select id="priceFilter">
-            <option value="">All</option>
-            <option value="0-50">$0-50</option>
-            <option value="51-150">$51-150</option>
-            <option value="151-300">$151-300</option>
+          <select id="priceFilter" name="price">
+            <option value="All">All</option>
+            <option value="0-200">0-200</option>
+            <option value="201-400">201-400</option>
+            <option value="401-700">401-700</option>
+            <option value="From 701">From 701</option>
           </select>
         </label>
         <label>
           Choose Product:
-          <select id="productFilter">
-            <option value="">All</option>
+          <select id="productFilter" name="product_type">
+            <option value="All">All</option>
             <option value="Jeans">Jeans</option>
             <option value="T-shirt">T-shirt</option>
             <option value="Jacket">Jacket</option>
             <option value="Sweater">Sweater</option>
           </select>
         </label>
-        <button id="productsearchButton">Search</button>
-      </section>
+        <label>
+          Status:
+          <select id="statusFilter" name="status">
+            <option value="All">All</option>
+            <option value="In stock">In stock</option>
+            <option value="Out of stock">Out of stock</option>
+          </select>
+        </label>
+        <button id="productSearchButton" type="submit">Search</button>
+        <button id="clearFilterButton" type="reset">Clear</button>
+      </form>
       <!-- Контейнер для карточек -->
-      <main id="productContainer" class="main_container">
-        <!-- Карточки будут добавлены через JS -->
-      </main>
+      <main id="productContainer" class="main_container"></main>
 
       <footer class="site-footer">
         <div class="social-section">
