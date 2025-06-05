@@ -28,17 +28,20 @@
             <a href="#">
               <img
                 src="assets/location_map_navigate_pin_pointer_icon.png"
-                alt="location"
+                alt="Location"
                 title="Location"
               />
             </a>
-            <a href="#">
-              <img
-                src="assets/heart_favorite_bookmarkt_love_icon.png"
-                alt="Favorites"
-                title="Favorites"
-              />
-            </a>
+            <div class="favorites_wrapper">
+              <a href="#">
+                <img
+                  src="assets/heart_favorite_bookmarkt_love_icon.png"
+                  alt="Favorites"
+                  title="Favorites"
+                />
+              </a>
+              <span class="favorites_counter" style="display: none;">0</span>
+            </div>
             <a href="#">
               <img
                 src="assets/person_user_icon.png"
@@ -84,10 +87,10 @@
           Price:
           <select id="priceFilter" name="price">
             <option value="All">All</option>
-            <option value="0-200">0-200</option>
-            <option value="201-400">201-400</option>
-            <option value="401-700">401-700</option>
-            <option value="From 701">From 701</option>
+            <option value="0-200 €">0-200 €</option>
+            <option value="201-400 €">201-400 €</option>
+            <option value="401-700 €">401-700 €</option>
+            <option value="From 701 €">From 701 €</option>
           </select>
         </label>
         <label>
@@ -189,7 +192,7 @@
           </p>
         </div>
       </footer>
-      <!-- Cтрелка -->
+      <!-- Стрелка -->
       <div class="arrow_up_box">
         <a href="#filtersSection">
           <img
