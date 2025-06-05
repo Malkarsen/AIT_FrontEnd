@@ -24,38 +24,31 @@ const STOP_BUTTON = document.querySelector(".stop_button");
 
 let intervalId;
 
+///////////////////////////////////////////////////////////
 const getRandomInt = () => {
   return Math.round(Math.random() * (colors.length - 1));
 };
-
+///////////////////////////////////////////////////////////
 const changeSquareColor = (colorNumber) => {
-  SQUARE_COLOR.style["background-color"] = colors[colorNumber];
+  SQUARE_COLOR.style.backgroundColor = colors[colorNumber];
 };
-
+///////////////////////////////////////////////////////////
 const deactivateRandomColorButton = () => {
   RANDOM_COLOR_BUTTON.disabled = true;
-  RANDOM_COLOR_BUTTON.style["background-color"] = "rgb(151, 161, 133)";
-  RANDOM_COLOR_BUTTON.style.cursor = "not-allowed";
 };
 
 const activateRandomColorButton = () => {
   RANDOM_COLOR_BUTTON.disabled = false;
-  RANDOM_COLOR_BUTTON.style["background-color"] = "olivedrab";
-  RANDOM_COLOR_BUTTON.style.cursor = "pointer";
 };
 
 const deactivateStopButton = () => {
   STOP_BUTTON.disabled = true;
-  STOP_BUTTON.style["background-color"] = "rgb(154, 179, 204)";
-  STOP_BUTTON.style.cursor = "not-allowed";
 };
 
 const activateStopButton = () => {
   STOP_BUTTON.disabled = false;
-  STOP_BUTTON.style["background-color"] = "rgb(27, 125, 222)";
-  STOP_BUTTON.style.cursor = "pointer";
 };
-
+///////////////////////////////////////////////////////////
 RANDOM_COLOR_BUTTON.addEventListener("click", () => {
   intervalId = setInterval(() => {
     let colorNumber = getRandomInt();

@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100%;
-  background-color:rgb(254, 210, 152);
+  background-color: rgb(254, 210, 152);
 }
 
 h1,
@@ -62,11 +62,22 @@ li {
   color: white;
   cursor: pointer;
 }
+.button:disabled {
+  cursor: not-allowed;
+}
 
 .random_color_button {
-  background-color: olivedrab;
+  background-color:seagreen;
+}
+
+.random_color_button:disabled {
+  background-color: rgb(169, 186, 176);
 }
 
 .stop_button {
-  background-color:rgb(27, 125, 222);
+  background-color: tomato;
+}
+
+.stop_button:disabled {
+  background-color: rgb(242, 184, 173);
 }

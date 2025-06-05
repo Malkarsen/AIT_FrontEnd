@@ -11,43 +11,30 @@
 // и выведите результат выполнения каждого промиса.
 
 const showNumbers = (seconds) => {
+  let numberOfMs = seconds * 1000;
   return new Promise((resolve, reject) => {
     if (seconds <= 10) {
       setTimeout(() => {
         resolve(`Прошло ${seconds} секунд(ы)`);
-      }, seconds * 1000);
+      }, numberOfMs);
     } else {
       setTimeout(() => {
         reject("Ошибка: максимальное количество секунд = 10");
-      }, 10 * 1000);
+      }, numberOfMs);
     }
   });
 };
 
-const promise1 = showNumbers(4);
-const promise2 = showNumbers(12);
-const promise3 = showNumbers(10);
+const wait = (second) => {
+  showNumbers(second)
+    .then((result) => {
+      console.log(result);
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+};
 
-promise1.then((result) => {
-  console.log("1", result);
-})
-.catch((error) => {
-  console.log("1", error);
-})
-.finally(() => {
-  console.log("Блок кода, который выполнится в любом случае");
-});
-///////////////////////////
-promise2.then((result) => {
-  console.log("2", result);
-})
-.catch((error) => {
-  console.log("2", error);
-})
-///////////////////////////
-promise3.then((result) => {
-  console.log("3", result);
-})
-.catch((error) => {
-  console.log("3", error);
-})
+wait(4);
+wait(12);
+wait(10);
