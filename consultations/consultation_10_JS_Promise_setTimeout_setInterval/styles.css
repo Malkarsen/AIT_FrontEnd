@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  min-height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.items {
+  display: none;
+  height: 100px;
+  width: 100px;
+  border: 1px solid rgb(54, 52, 52);
+}
+
+.item_1 {
+  background-color:tomato;
+}
+
+.item_2 {
+  background-color: olivedrab;
+}
+
+.item_3 {
+  background-color: gold;
+}
+
+.item_4 {
+  background-color:darkorange;
+}
+
+.item_5 {
+  background-color:cornflowerblue;
+}
