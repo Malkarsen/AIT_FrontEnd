@@ -1,0 +1,665 @@
+[
+  {
+    "name": "Åland Islands",
+    "isoCode": "AX",
+    "capital": "Mariehamn",
+    "population": 28875,
+    "area": 1580,
+    "nativeName": "Åland",
+    "languages": [
+      "Swedish"
+    ],
+    "flag": "https://flagcdn.com/ax.svg"
+  },
+  {
+    "name": "Albania",
+    "isoCode": "AL",
+    "capital": "Tirana",
+    "population": 2837743,
+    "area": 28748,
+    "nativeName": "Shqipëria",
+    "languages": [
+      "Albanian"
+    ],
+    "flag": "https://flagcdn.com/al.svg"
+  },
+  {
+    "name": "Andorra",
+    "isoCode": "AD",
+    "capital": "Andorra la Vella",
+    "population": 77265,
+    "area": 468,
+    "nativeName": "Andorra",
+    "languages": [
+      "Catalan"
+    ],
+    "flag": "https://flagcdn.com/ad.svg"
+  },
+  {
+    "name": "Austria",
+    "isoCode": "AT",
+    "capital": "Vienna",
+    "population": 8917205,
+    "area": 83871,
+    "nativeName": "Österreich",
+    "languages": [
+      "German"
+    ],
+    "flag": "https://flagcdn.com/at.svg"
+  },
+  {
+    "name": "Belarus",
+    "isoCode": "BY",
+    "capital": "Minsk",
+    "population": 9398861,
+    "area": 207600,
+    "nativeName": "Белару́сь",
+    "languages": [
+      "Belarusian",
+      "Russian"
+    ],
+    "flag": "https://flagcdn.com/by.svg"
+  },
+  {
+    "name": "Belgium",
+    "isoCode": "BE",
+    "capital": "Brussels",
+    "population": 11555997,
+    "area": 30528,
+    "nativeName": "België",
+    "languages": [
+      "Dutch",
+      "French",
+      "German"
+    ],
+    "flag": "https://flagcdn.com/be.svg"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "isoCode": "BA",
+    "capital": "Sarajevo",
+    "population": 3280815,
+    "area": 51209,
+    "nativeName": "Bosna i Hercegovina",
+    "languages": [
+      "Bosnian",
+      "Croatian",
+      "Serbian"
+    ],
+    "flag": "https://flagcdn.com/ba.svg"
+  },
+  {
+    "name": "Bulgaria",
+    "isoCode": "BG",
+    "capital": "Sofia",
+    "population": 6927288,
+    "area": 110879,
+    "nativeName": "България",
+    "languages": [
+      "Bulgarian"
+    ],
+    "flag": "https://flagcdn.com/bg.svg"
+  },
+  {
+    "name": "Croatia",
+    "isoCode": "HR",
+    "capital": "Zagreb",
+    "population": 4047200,
+    "area": 56594,
+    "nativeName": "Hrvatska",
+    "languages": [
+      "Croatian"
+    ],
+    "flag": "https://flagcdn.com/hr.svg"
+  },
+  {
+    "name": "Cyprus",
+    "isoCode": "CY",
+    "capital": "Nicosia",
+    "population": 1207361,
+    "area": 9251,
+    "nativeName": "Κύπρος",
+    "languages": [
+      "Greek (modern)",
+      "Turkish",
+      "Armenian"
+    ],
+    "flag": "https://flagcdn.com/cy.svg"
+  },
+  {
+    "name": "Czech Republic",
+    "isoCode": "CZ",
+    "capital": "Prague",
+    "population": 10698896,
+    "area": 78865,
+    "nativeName": "Česká republika",
+    "languages": [
+      "Czech",
+      "Slovak"
+    ],
+    "flag": "https://flagcdn.com/cz.svg"
+  },
+  {
+    "name": "Denmark",
+    "isoCode": "DK",
+    "capital": "Copenhagen",
+    "population": 5831404,
+    "area": 43094,
+    "nativeName": "Danmark",
+    "languages": [
+      "Danish"
+    ],
+    "flag": "https://flagcdn.com/dk.svg"
+  },
+  {
+    "name": "Estonia",
+    "isoCode": "EE",
+    "capital": "Tallinn",
+    "population": 1331057,
+    "area": 45227,
+    "nativeName": "Eesti",
+    "languages": [
+      "Estonian"
+    ],
+    "flag": "https://flagcdn.com/ee.svg"
+  },
+  {
+    "name": "Faroe Islands",
+    "isoCode": "FO",
+    "capital": "Tórshavn",
+    "population": 48865,
+    "area": 1393,
+    "nativeName": "Føroyar",
+    "languages": [
+      "Faroese"
+    ],
+    "flag": "https://flagcdn.com/fo.svg"
+  },
+  {
+    "name": "Finland",
+    "isoCode": "FI",
+    "capital": "Helsinki",
+    "population": 5530719,
+    "area": 338424,
+    "nativeName": "Suomi",
+    "languages": [
+      "Finnish",
+      "Swedish"
+    ],
+    "flag": "https://flagcdn.com/fi.svg"
+  },
+  {
+    "name": "France",
+    "isoCode": "FR",
+    "capital": "Paris",
+    "population": 67391582,
+    "area": 640679,
+    "nativeName": "France",
+    "languages": [
+      "French"
+    ],
+    "flag": "https://flagcdn.com/fr.svg"
+  },
+  {
+    "name": "Germany",
+    "isoCode": "DE",
+    "capital": "Berlin",
+    "population": 83240525,
+    "area": 357114,
+    "nativeName": "Deutschland",
+    "languages": [
+      "German"
+    ],
+    "flag": "https://flagcdn.com/de.svg"
+  },
+  {
+    "name": "Gibraltar",
+    "isoCode": "GI",
+    "capital": "Gibraltar",
+    "population": 33691,
+    "area": 6,
+    "nativeName": "Gibraltar",
+    "languages": [
+      "English"
+    ],
+    "flag": "https://flagcdn.com/gi.svg"
+  },
+  {
+    "name": "Greece",
+    "isoCode": "GR",
+    "capital": "Athens",
+    "population": 10715549,
+    "area": 131990,
+    "nativeName": "Ελλάδα",
+    "languages": [
+      "Greek (modern)"
+    ],
+    "flag": "https://flagcdn.com/gr.svg"
+  },
+  {
+    "name": "Guernsey",
+    "isoCode": "GG",
+    "capital": "St. Peter Port",
+    "population": 62999,
+    "area": 78,
+    "nativeName": "Guernsey",
+    "languages": [
+      "English",
+      "French"
+    ],
+    "flag": "https://flagcdn.com/gg.svg"
+  },
+  {
+    "name": "Vatican City",
+    "isoCode": "VA",
+    "capital": "Vatican City",
+    "population": 451,
+    "area": 0.44,
+    "nativeName": "Status Civitatis Vaticanae",
+    "languages": [
+      "Latin",
+      "Italian",
+      "French",
+      "German"
+    ],
+    "flag": "https://flagcdn.com/va.svg"
+  },
+  {
+    "name": "Hungary",
+    "isoCode": "HU",
+    "capital": "Budapest",
+    "population": 9749763,
+    "area": 93028,
+    "nativeName": "Magyarország",
+    "languages": [
+      "Hungarian"
+    ],
+    "flag": "https://flagcdn.com/hu.svg"
+  },
+  {
+    "name": "Iceland",
+    "isoCode": "IS",
+    "capital": "Reykjavík",
+    "population": 366425,
+    "area": 103000,
+    "nativeName": "Ísland",
+    "languages": [
+      "Icelandic"
+    ],
+    "flag": "https://flagcdn.com/is.svg"
+  },
+  {
+    "name": "Ireland",
+    "isoCode": "IE",
+    "capital": "Dublin",
+    "population": 4994724,
+    "area": 70273,
+    "nativeName": "Éire",
+    "languages": [
+      "Irish",
+      "English"
+    ],
+    "flag": "https://flagcdn.com/ie.svg"
+  },
+  {
+    "name": "Isle of Man",
+    "isoCode": "IM",
+    "capital": "Douglas",
+    "population": 85032,
+    "area": 572,
+    "nativeName": "Isle of Man",
+    "languages": [
+      "English",
+      "Manx"
+    ],
+    "flag": "https://flagcdn.com/im.svg"
+  },
+  {
+    "name": "Italy",
+    "isoCode": "IT",
+    "capital": "Rome",
+    "population": 59554023,
+    "area": 301336,
+    "nativeName": "Italia",
+    "languages": [
+      "Italian"
+    ],
+    "flag": "https://flagcdn.com/it.svg"
+  },
+  {
+    "name": "Jersey",
+    "isoCode": "JE",
+    "capital": "Saint Helier",
+    "population": 100800,
+    "area": 116,
+    "nativeName": "Jersey",
+    "languages": [
+      "English",
+      "French"
+    ],
+    "flag": "https://flagcdn.com/je.svg"
+  },
+  {
+    "name": "Latvia",
+    "isoCode": "LV",
+    "capital": "Riga",
+    "population": 1901548,
+    "area": 64559,
+    "nativeName": "Latvija",
+    "languages": [
+      "Latvian"
+    ],
+    "flag": "https://flagcdn.com/lv.svg"
+  },
+  {
+    "name": "Liechtenstein",
+    "isoCode": "LI",
+    "capital": "Vaduz",
+    "population": 38137,
+    "area": 160,
+    "nativeName": "Liechtenstein",
+    "languages": [
+      "German"
+    ],
+    "flag": "https://flagcdn.com/li.svg"
+  },
+  {
+    "name": "Lithuania",
+    "isoCode": "LT",
+    "capital": "Vilnius",
+    "population": 2794700,
+    "area": 65300,
+    "nativeName": "Lietuva",
+    "languages": [
+      "Lithuanian"
+    ],
+    "flag": "https://flagcdn.com/lt.svg"
+  },
+  {
+    "name": "Luxembourg",
+    "isoCode": "LU",
+    "capital": "Luxembourg",
+    "population": 632275,
+    "area": 2586,
+    "nativeName": "Lëtzebuerg",
+    "languages": [
+      "French",
+      "German",
+      "Luxembourgish"
+    ],
+    "flag": "https://flagcdn.com/lu.svg"
+  },
+  {
+    "name": "North Macedonia",
+    "isoCode": "MK",
+    "capital": "Skopje",
+    "population": 2083380,
+    "area": 25713,
+    "nativeName": "Македонија",
+    "languages": [
+      "Macedonian"
+    ],
+    "flag": "https://flagcdn.com/mk.svg"
+  },
+  {
+    "name": "Malta",
+    "isoCode": "MT",
+    "capital": "Valletta",
+    "population": 525285,
+    "area": 316,
+    "nativeName": "Malta",
+    "languages": [
+      "Maltese",
+      "English"
+    ],
+    "flag": "https://flagcdn.com/mt.svg"
+  },
+  {
+    "name": "Moldova (Republic of)",
+    "isoCode": "MD",
+    "capital": "Chișinău",
+    "population": 2617820,
+    "area": 33846,
+    "nativeName": "Moldova",
+    "languages": [
+      "Romanian"
+    ],
+    "flag": "https://flagcdn.com/md.svg"
+  },
+  {
+    "name": "Monaco",
+    "isoCode": "MC",
+    "capital": "Monaco",
+    "population": 39244,
+    "area": 2.02,
+    "nativeName": "Monaco",
+    "languages": [
+      "French"
+    ],
+    "flag": "https://flagcdn.com/mc.svg"
+  },
+  {
+    "name": "Montenegro",
+    "isoCode": "ME",
+    "capital": "Podgorica",
+    "population": 621718,
+    "area": 13812,
+    "nativeName": "Црна Гора",
+    "languages": [
+      "Serbian",
+      "Bosnian",
+      "Albanian",
+      "Croatian"
+    ],
+    "flag": "https://flagcdn.com/me.svg"
+  },
+  {
+    "name": "Netherlands",
+    "isoCode": "NL",
+    "capital": "Amsterdam",
+    "population": 17441139,
+    "area": 41850,
+    "nativeName": "Nederland",
+    "languages": [
+      "Dutch"
+    ],
+    "flag": "https://flagcdn.com/nl.svg"
+  },
+  {
+    "name": "Norway",
+    "isoCode": "NO",
+    "capital": "Oslo",
+    "population": 5379475,
+    "area": 323802,
+    "nativeName": "Norge",
+    "languages": [
+      "Norwegian",
+      "Norwegian Bokmål",
+      "Norwegian Nynorsk"
+    ],
+    "flag": "https://flagcdn.com/no.svg"
+  },
+  {
+    "name": "Poland",
+    "isoCode": "PL",
+    "capital": "Warsaw",
+    "population": 37950802,
+    "area": 312679,
+    "nativeName": "Polska",
+    "languages": [
+      "Polish"
+    ],
+    "flag": "https://flagcdn.com/pl.svg"
+  },
+  {
+    "name": "Portugal",
+    "isoCode": "PT",
+    "capital": "Lisbon",
+    "population": 10305564,
+    "area": 92090,
+    "nativeName": "Portugal",
+    "languages": [
+      "Portuguese"
+    ],
+    "flag": "https://flagcdn.com/pt.svg"
+  },
+  {
+    "name": "Republic of Kosovo",
+    "isoCode": "XK",
+    "capital": "Pristina",
+    "population": 1775378,
+    "area": 10908,
+    "nativeName": "Republika e Kosovës",
+    "languages": [
+      "Albanian",
+      "Serbian"
+    ],
+    "flag": "https://flagcdn.com/xk.svg"
+  },
+  {
+    "name": "Romania",
+    "isoCode": "RO",
+    "capital": "Bucharest",
+    "population": 19286123,
+    "area": 238391,
+    "nativeName": "România",
+    "languages": [
+      "Romanian"
+    ],
+    "flag": "https://flagcdn.com/ro.svg"
+  },
+  {
+    "name": "Russian Federation",
+    "isoCode": "RU",
+    "capital": "Moscow",
+    "population": 144104080,
+    "area": 17124442,
+    "nativeName": "Россия",
+    "languages": [
+      "Russian"
+    ],
+    "flag": "https://flagcdn.com/ru.svg"
+  },
+  {
+    "name": "San Marino",
+    "isoCode": "SM",
+    "capital": "City of San Marino",
+    "population": 33938,
+    "area": 61,
+    "nativeName": "San Marino",
+    "languages": [
+      "Italian"
+    ],
+    "flag": "https://flagcdn.com/sm.svg"
+  },
+  {
+    "name": "Serbia",
+    "isoCode": "RS",
+    "capital": "Belgrade",
+    "population": 6908224,
+    "area": 88361,
+    "nativeName": "Србија",
+    "languages": [
+      "Serbian"
+    ],
+    "flag": "https://flagcdn.com/rs.svg"
+  },
+  {
+    "name": "Slovakia",
+    "isoCode": "SK",
+    "capital": "Bratislava",
+    "population": 5458827,
+    "area": 49037,
+    "nativeName": "Slovensko",
+    "languages": [
+      "Slovak"
+    ],
+    "flag": "https://flagcdn.com/sk.svg"
+  },
+  {
+    "name": "Slovenia",
+    "isoCode": "SI",
+    "capital": "Ljubljana",
+    "population": 2100126,
+    "area": 20273,
+    "nativeName": "Slovenija",
+    "languages": [
+      "Slovene"
+    ],
+    "flag": "https://flagcdn.com/si.svg"
+  },
+  {
+    "name": "Spain",
+    "isoCode": "ES",
+    "capital": "Madrid",
+    "population": 47351567,
+    "area": 505992,
+    "nativeName": "España",
+    "languages": [
+      "Spanish"
+    ],
+    "flag": "https://flagcdn.com/es.svg"
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "isoCode": "SJ",
+    "capital": "Longyearbyen",
+    "population": 2562,
+    "nativeName": "Svalbard og Jan Mayen",
+    "languages": [
+      "Norwegian"
+    ],
+    "flag": "https://flagcdn.com/sj.svg"
+  },
+  {
+    "name": "Sweden",
+    "isoCode": "SE",
+    "capital": "Stockholm",
+    "population": 10353442,
+    "area": 450295,
+    "nativeName": "Sverige",
+    "languages": [
+      "Swedish"
+    ],
+    "flag": "https://flagcdn.com/se.svg"
+  },
+  {
+    "name": "Switzerland",
+    "isoCode": "CH",
+    "capital": "Bern",
+    "population": 8636896,
+    "area": 41284,
+    "nativeName": "Schweiz",
+    "languages": [
+      "German",
+      "French",
+      "Italian",
+      "Romansh"
+    ],
+    "flag": "https://flagcdn.com/ch.svg"
+  },
+  {
+    "name": "Ukraine",
+    "isoCode": "UA",
+    "capital": "Kyiv",
+    "population": 44134693,
+    "area": 603700,
+    "nativeName": "Україна",
+    "languages": [
+      "Ukrainian"
+    ],
+    "flag": "https://flagcdn.com/ua.svg"
+  },
+  {
+    "name": "United Kingdom of Great Britain and Northern Ireland",
+    "isoCode": "GB",
+    "capital": "London",
+    "population": 67215293,
+    "area": 242900,
+    "nativeName": "United Kingdom",
+    "languages": [
+      "English"
+    ],
+    "flag": "https://flagcdn.com/gb.svg"
+  }
+]
